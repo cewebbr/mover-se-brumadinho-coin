@@ -5,9 +5,8 @@
 O projeto X Y Z faz parte da chamada pública [CGI.br/NIC.br/Ceweb.br nº 01/2019
 Mover-Se na Web – Articulação Pró-Brumadinho](https://ceweb.br/projetos/chamada.html)
 
-### Abaixo, liste a licença/s para o projeto. Lembre-se que todas as soluções devem possuir uma licença de código aberto, assim como todos os produtos produzidos com o aporte oferecido pelo Ceweb.br | NIC.br | CGI.br.
+<p>Abaixo, liste a licença/s para o projeto. Lembre-se que todas as soluções devem possuir uma licença de código aberto, assim como todos os produtos produzidos com o aporte oferecido pelo Ceweb.br | NIC.br | CGI.br. </p>
 
-<br/>
 
 # Escolhendo a licença para o projeto
 
