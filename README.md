@@ -106,14 +106,15 @@ Descreva aqui caso existam problemas conhecidos, como pacotes, conflitos entre v
 # Sobre o [Ceweb.br](https://ceweb.br/sobre-o-ceweb-br/), [NIC.br](https://www.nic.br/sobre/) e [CGI.br](https://cgi.br/sobre/)
 
 ### Ceweb.br - Centro de Estudos sobre Tecnologias Web
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie leo vitae imperdiet blandit. Quisque pulvinar ligula quam, sit amet imperdiet dolor congue ac. In eleifend leo malesuada, ultrices lectus quis, viverra urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In at magna volutpat, tristique erat sed, placerat enim. 
+O Centro de Estudos sobre Tecnologias Web (Ceweb.br) foi criado como um departamento do Núcleo de Informação e Coordenação do Ponto BR (NIC.br) para viabilizar a participação da comunidade brasileira no desenvolvimento global da Web e subsidiar a formulação de políticas públicas. O Ceweb.br nasce inspirado pelos princípios e projetos já desenvolvidos pelo Escritório Brasileiro do W3C (World Wide Web Consortium), hospedado e apoiado pelo NIC.br no Brasil desde 2008, com a missão de promover atividades que estimulem o uso de tecnologias abertas e padronizadas na Web.
+
 
 ### NIC.br - Núcleo de Informação e Comunicação do Ponto BR
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie leo vitae imperdiet blandit. Quisque pulvinar ligula quam, sit amet imperdiet dolor congue ac. In eleifend leo malesuada, ultrices lectus quis, viverra urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In at magna volutpat, tristique erat sed, placerat enim. 
+O Núcleo de Informação e Coordenação do Ponto BR - NIC.br foi criado para implementar as decisões e os projetos do Comitê Gestor da Internet no Brasil - CGI.br, que é o responsável por coordenar e integrar as iniciativas e serviços da Internet no País.
+
 
 ### CGI.br - Comitê Gestor da Internet no Brasil
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie leo vitae imperdiet blandit. Quisque pulvinar ligula quam, sit amet imperdiet dolor congue ac. In eleifend leo malesuada, ultrices lectus quis, viverra urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In at magna volutpat, tristique erat sed, placerat enim. 
-
+O Comitê Gestor da Internet no Brasil tem a atribuição de estabelecer diretrizes estratégicas relacionadas ao uso e desenvolvimento da Internet no Brasil e diretrizes para a execução do registro de Nomes de Domínio, alocação de Endereço IP (Internet Protocol) e administração pertinente ao Domínio de Primeiro Nível ".br". Também promove estudos e recomenda procedimentos para a segurança da Internet e propõe programas de pesquisa e desenvolvimento que permitam a manutenção do nível de qualidade técnica e inovação no uso da Internet
 
 # 👥 Equipe Ceweb.br
 
