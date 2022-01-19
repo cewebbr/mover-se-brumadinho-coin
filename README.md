@@ -1,4 +1,9 @@
-<h1 align="center"><img src="https://ceweb.br/media/imgs/Moverse_na_Web_banner-site.jpg" alt="Vamos transformar Brumadinho. Projeto Mover-se na WEB!" width="450" height="auto"></h1>
+<h1 align="center"><img src="https://user-images.githubusercontent.com/16292535/150152830-a0077ec7-d677-4e19-b282-04401bb5a060.png" alt="logos Ceweb.br NIC.br CGI.br " width="250" height="auto"></h1>
+
+<h1 align="center">
+    <img src="https://ceweb.br/media/imgs/Moverse_na_Web_banner-site.jpg" alt="Vamos transformar Brumadinho. Projeto Mover-se na WEB!" width="450" height="auto">
+</h1>
+
 
 <h1 align="center"> 🚀 Nome do Projeto </h1>
 
@@ -28,7 +33,6 @@ Os badges podem ser criados ou retirados do [License Shields](https://shields.io
 
 
 #  Descrição da solução
-
 
 
 Aqui você deve adicionar uma descrição do projeto. Texto corrido, não maior que ~600 caracteres e/ou ~100 palavras.
