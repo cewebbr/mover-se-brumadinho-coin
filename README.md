@@ -8,7 +8,7 @@ Mover-Se na Web – Articulação Pró-Brumadinho](https://ceweb.br/projetos/cha
 <p>Abaixo, liste a licença/s para o projeto. Lembre-se que todas as soluções devem possuir uma licença de código aberto, assim como todos os produtos produzidos com o aporte oferecido pelo Ceweb.br | NIC.br | CGI.br. </p>
 
 
-# Escolhendo a licença para o projeto
+# Escolhendo a licença para o projeto 
 
 Uma vez definida, exclua essa seção, deixando apenas a indicação do "badge" da licença e o arquivo `LICENSE` dentro do repositório.
 
@@ -102,6 +102,16 @@ $ python server.py
 
 Descreva aqui caso existam problemas conhecidos, como pacotes, conflitos entre versões e se possível, como resolver ou um artigo que auxilie na solução. Caso não existir, omitir a seção.
 
+<br/>
+
+### 👥 Equipe responsável pelo projeto 
+
+- Ana Maria         - UFPR - Coordenadora - ana@email.com.br
+- João da Silva     - UFMG - Pessoa desenvolvedora - joao@email.com.br
+- Luciana de Souza  - UFMG - Pessoa desenvolvedora - luciana@email.com.br
+
+</br>
+
 
 # Sobre o [Ceweb.br](https://ceweb.br/sobre-o-ceweb-br/), [NIC.br](https://www.nic.br/sobre/) e [CGI.br](https://cgi.br/sobre/)
 
@@ -116,7 +126,7 @@ O Núcleo de Informação e Coordenação do Ponto BR - NIC.br foi criado para i
 ### CGI.br - Comitê Gestor da Internet no Brasil
 O Comitê Gestor da Internet no Brasil tem a atribuição de estabelecer diretrizes estratégicas relacionadas ao uso e desenvolvimento da Internet no Brasil e diretrizes para a execução do registro de Nomes de Domínio, alocação de Endereço IP (Internet Protocol) e administração pertinente ao Domínio de Primeiro Nível ".br". Também promove estudos e recomenda procedimentos para a segurança da Internet e propõe programas de pesquisa e desenvolvimento que permitam a manutenção do nível de qualidade técnica e inovação no uso da Internet
 
-# 👥 Equipe Ceweb.br
+### 👥 Equipe Ceweb.br
 
 <ul>
     <li>Amanda Marques</li> 
