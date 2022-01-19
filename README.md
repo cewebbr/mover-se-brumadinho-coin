@@ -5,7 +5,7 @@
 </h1>
 
 
-<h1 align="center"> 🚀 Nome do Projeto </h1>
+<h1 align="center"> Nome do Projeto </h1>
 
 O projeto X Y Z faz parte da chamada pública [CGI.br/NIC.br/Ceweb.br nº 01/2019
 Mover-Se na Web – Articulação Pró-Brumadinho](https://ceweb.br/projetos/chamada.html)
@@ -39,14 +39,14 @@ Aqui você deve adicionar uma descrição do projeto. Texto corrido, não maior 
 
 ### Funcionalidades
 
-- [✅] Cadastro de usuário
-- [✅] Cadastro de cliente
-- [❌] Cadastro de uma fonte
-- [✅] Denúncia
+- [ ] Cadastro de usuário
+- [x] Cadastro de cliente
+- [x] Cadastro de uma fonte
+- [ ] Denúncia
 
 #  Instalação
 
-### 🔨Tecnologias utilizadas
+### Tecnologias utilizadas
 
 Liste aqui as tecnologias utilizadas no projeto como o modelo abaixo.
 
@@ -54,7 +54,7 @@ Liste aqui as tecnologias utilizadas no projeto como o modelo abaixo.
 - [React Native](https://reactnative.dev/)
 
 
-## 🤳🏻 Executando a aplicação
+## Executando a aplicação
 
 ### Pré-requisitos (Software e/ou Hardware)
 
@@ -102,13 +102,13 @@ $ python server.py
 
 </br>
 
-#### ⚠ Solução de problemas
+#### Solução de problemas
 
 Descreva aqui caso existam problemas conhecidos, como pacotes, conflitos entre versões e se possível, como resolver ou um artigo que auxilie na solução. Caso não existir, omitir a seção.
 
 <br/>
 
-### 👥 Equipe responsável pelo projeto 
+### Equipe responsável pelo projeto 
 
 - Ana Maria         - UFPR - Coordenadora - ana@email.com.br
 - João da Silva     - UFMG - Pessoa desenvolvedora - joao@email.com.br
@@ -130,7 +130,7 @@ O Núcleo de Informação e Coordenação do Ponto BR - NIC.br foi criado para i
 ### CGI.br - Comitê Gestor da Internet no Brasil
 O Comitê Gestor da Internet no Brasil tem a atribuição de estabelecer diretrizes estratégicas relacionadas ao uso e desenvolvimento da Internet no Brasil e diretrizes para a execução do registro de Nomes de Domínio, alocação de Endereço IP (Internet Protocol) e administração pertinente ao Domínio de Primeiro Nível ".br". Também promove estudos e recomenda procedimentos para a segurança da Internet e propõe programas de pesquisa e desenvolvimento que permitam a manutenção do nível de qualidade técnica e inovação no uso da Internet
 
-### 👥 Equipe Ceweb.br
+### Equipe Ceweb.br
 
 <ul>
     <li>Amanda Marques</li> 
