@@ -68,14 +68,14 @@ Liste aqui todos os pré-requisitos no modelo abaixo.
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/cewebbr/template_mover-se>
+$ git clone https://github.com/cewebbr/template_mover-se
 
 # Acesse a pasta do projeto no terminal
 $ cd template_mover-se
 
 # Crie um arquivo `.env` na raiz do projeto
 
-$ cp .env-exemple
+$ cp .env-exemple .env
 
 # Instale as dependências
 $ pip install -r requirements.txt
