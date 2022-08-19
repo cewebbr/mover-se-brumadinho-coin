@@ -7,7 +7,7 @@
 
 <h1 align="center"> Nome do Projeto </h1>
 
-O projeto X Y Z faz parte da chamada pública [CGI.br/NIC.br/Ceweb.br nº 01/2019
+O projeto [XPTO] faz parte da chamada pública [CGI.br/NIC.br/Ceweb.br nº 01/2019
 Mover-Se na Web – Articulação Pró-Brumadinho](https://ceweb.br/projetos/chamada.html)
 
 <p>Abaixo, liste a licença/s para o projeto. Lembre-se que todas as soluções devem possuir uma licença de código aberto, assim como todos os produtos produzidos com o aporte oferecido pelo Ceweb.br | NIC.br | CGI.br. </p>
@@ -31,18 +31,25 @@ Os badges podem ser criados ou retirados do [License Shields](https://shields.io
 
 <br/>
 
-
 #  Descrição da solução
-
 
 Aqui você deve adicionar uma descrição do projeto. Texto corrido, não maior que ~600 caracteres e/ou ~100 palavras.
 
-### Funcionalidades
+### Funcionalidades ativas
 
-- [ ] Cadastro de usuário
-- [x] Cadastro de cliente
+- [x] Cadastro de criação de usuário
+- [x] Cadastro de Denúncia
 - [x] Cadastro de uma fonte
-- [ ] Denúncia
+
+### Funcionalidades em desenvolvimento
+- [x] Moderação de comentários
+- [x] Moderação de ativos
+
+### Papeis e suas descrições
+
+-  Usuário: Uma breve descrição sobre os papeis do usuário na operação do sistema.
+-  Moderador: Uma breve descrição sobre os papeis do Moderador na operação do sistema.
+-  Administrador: Uma breve descrição sobre os papeis do Administrador na operação do sistema.
 
 #  Instalação
 
@@ -110,9 +117,9 @@ Descreva aqui caso existam problemas conhecidos, como pacotes, conflitos entre v
 
 ### Equipe responsável pelo projeto 
 
-- Ana Maria         - UFPR - Coordenadora - ana@email.com.br
+- Ana Maria         - UFRJ - Coordenadora - ana@email.com.br
 - João da Silva     - UFMG - Pessoa desenvolvedora - joao@email.com.br
-- Luciana de Souza  - UFMG - Pessoa desenvolvedora - luciana@email.com.br
+- Luciana de Souza  - UFPR - Pessoa desenvolvedora - luciana@email.com.br
 
 </br>
 
