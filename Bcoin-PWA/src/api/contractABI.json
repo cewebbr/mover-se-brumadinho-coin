@@ -1,0 +1,549 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_project_ID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_comment",
+				"type": "string"
+			}
+		],
+		"name": "addComment",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_project_ID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string[]",
+				"name": "_files_cids",
+				"type": "string[]"
+			},
+			{
+				"internalType": "string[]",
+				"name": "_files_mime_types",
+				"type": "string[]"
+			}
+		],
+		"name": "addFiles",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_authority",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_title",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_description",
+				"type": "string"
+			}
+		],
+		"name": "createProject",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_project_ID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_percentage",
+				"type": "uint8"
+			}
+		],
+		"name": "setPercentDone",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_ID",
+				"type": "uint256"
+			}
+		],
+		"name": "toSign",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "_next_ID",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllProjectInCreatedStatus",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "ID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "proponent",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "executor",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "authority",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "comment",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "percent_done",
+						"type": "uint8"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "ipfs_cid",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "mime_type",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Media[]",
+						"name": "files",
+						"type": "tuple[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "proposal_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "start_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "end_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Status",
+						"name": "status",
+						"type": "uint8"
+					}
+				],
+				"internalType": "struct Project[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_ID",
+				"type": "uint256"
+			}
+		],
+		"name": "getProject",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "ID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "proponent",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "executor",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "authority",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "comment",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "percent_done",
+						"type": "uint8"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "ipfs_cid",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "mime_type",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Media[]",
+						"name": "files",
+						"type": "tuple[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "proposal_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "start_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "end_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Status",
+						"name": "status",
+						"type": "uint8"
+					}
+				],
+				"internalType": "struct Project",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_addr",
+				"type": "address"
+			}
+		],
+		"name": "getProjectsOfFinished",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "ID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "proponent",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "executor",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "authority",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "comment",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "percent_done",
+						"type": "uint8"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "ipfs_cid",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "mime_type",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Media[]",
+						"name": "files",
+						"type": "tuple[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "proposal_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "start_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "end_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Status",
+						"name": "status",
+						"type": "uint8"
+					}
+				],
+				"internalType": "struct Project[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_addr",
+				"type": "address"
+			}
+		],
+		"name": "getProjectsOfInExecution",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "ID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "proponent",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "executor",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "authority",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "comment",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "percent_done",
+						"type": "uint8"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "ipfs_cid",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "mime_type",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Media[]",
+						"name": "files",
+						"type": "tuple[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "proposal_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "start_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "end_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Status",
+						"name": "status",
+						"type": "uint8"
+					}
+				],
+				"internalType": "struct Project[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "qdtProjectsInCreatedStatus",
+		"outputs": [
+			{
+				"internalType": "uint32",
+				"name": "",
+				"type": "uint32"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
