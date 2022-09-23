@@ -5,61 +5,41 @@
 </h1>
 
 
-<h1 align="center"> Nome do Projeto </h1>
+<h1 align="center"> BrumadinhoCoin </h1>
 
-O projeto [XPTO] faz parte da chamada pública [CGI.br/NIC.br/Ceweb.br nº 01/2019
+O projeto BrumadinhoCoin faz parte da chamada pública [CGI.br/NIC.br/Ceweb.br nº 01/2019
 Mover-Se na Web – Articulação Pró-Brumadinho](https://ceweb.br/projetos/chamada.html)
 
-<p>Abaixo, liste a licença/s para o projeto. Lembre-se que todas as soluções devem possuir uma licença de código aberto, assim como todos os produtos produzidos com o aporte oferecido pelo Ceweb.br | NIC.br | CGI.br. </p>
-
-
-# Escolhendo a licença para o projeto 
-
-Uma vez definida, exclua essa seção, deixando apenas a indicação do "badge" da licença e o arquivo `LICENSE` dentro do repositório.
-
-Saiba mais sobre licenças de software:
-- [Como escolher uma licença para seu projeto
-](https://www.alura.com.br/artigos/como-escolher-uma-licenca-para-seu-projeto)
-- [Choose an open source license](https://choosealicense.com/)
-- [Como escolher uma licença para sua própria obra](https://www.gnu.org/licenses/license-recommendations.pt-br.html)
-
-Exemplo - MIT License
-
 [![Software License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/mas-cli/mas/blob/main/LICENSE)
-
-Os badges podem ser criados ou retirados do [License Shields](https://shields.io/category/license)
 
 <br/>
 
 #  Descrição da solução
 
-Aqui você deve adicionar uma descrição do projeto. Texto corrido, não maior que ~600 caracteres e/ou ~100 palavras.
-
-### Funcionalidades ativas
-
-- [x] Cadastro de criação de usuário
-- [x] Cadastro de Denúncia
-- [x] Cadastro de uma fonte
-
-### Funcionalidades em desenvolvimento
-- [x] Moderação de comentários
-- [x] Moderação de ativos
+O projeto **BrumadinhoCoin**: *uma moeda ambiental solidária* foi idealizado de modo a fornecer uma solução tecnológica a ser aplicada nas questões de preservação e/ou recuperação do meio ambiente e, ao mesmo tempo, fomentar a economia local. Motivado pelo desastre ambiental ocorrido pelo rompimento de barragem na cidade de Brumadinho – MG em 2019, o projeto busca oferecer apoio tecnológico a pessoas físicas ou jurídicas que tenham interesse em patrocinar financeiramente a execução de ações ambientais conectando-as às pessoas que tem interesse em executar tais ações ambientais.
 
 ### Papeis e suas descrições
 
--  Usuário: Uma breve descrição sobre os papeis do usuário na operação do sistema.
--  Moderador: Uma breve descrição sobre os papeis do Moderador na operação do sistema.
--  Administrador: Uma breve descrição sobre os papeis do Administrador na operação do sistema.
+-  Contratante: responsável por cadastrar a ação ambiental a ser executada e sua descrição, alem de patrocinar o montante a ser pago.
+-  Executor: ator interessado em executar a ação, enviar as provas digitais de execução (fotos e vídeos) e ao término da ação é recompensado financeiramente.
+-  Autoridade: responsável por validar as provas digitais e validar a execução (ou não) liberando a transferência de valores entre o contratante e o executor.
 
 #  Instalação
 
 ### Tecnologias utilizadas
 
-Liste aqui as tecnologias utilizadas no projeto como o modelo abaixo.
+#### PWA.
 
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [MUI](https://mui.com/)
+- [Firebase](https://firebase.google.com/)
+- [IPFS](https://ipfs.tech/)
 
+#### Smart Contract
+- [Hardhat](https://hardhat.org/)
+- [Solidity](https://docs.soliditylang.org/en/v0.8.17/)
+- [Ethereum](https://ethereum.org/)
+- [Ropsten Testnet](https://ropsten.etherscan.io/)
 
 ## Executando a aplicação
 
@@ -117,9 +97,9 @@ Descreva aqui caso existam problemas conhecidos, como pacotes, conflitos entre v
 
 ### Equipe responsável pelo projeto 
 
-- Ana Maria         - UFRJ - Coordenadora - ana@email.com.br
-- João da Silva     - UFMG - Pessoa desenvolvedora - joao@email.com.br
-- Luciana de Souza  - UFPR - Pessoa desenvolvedora - luciana@email.com.br
+- Antonio Augusto de Aragão           - UFF - Coordenador - arocha@ic.uff.br
+- Fabiano da Guia Rocha               - IFMT - Pessoa desenvolvedora - fabiano.rocha@ifmt.edu.br
+- Luiz Filipe de Jesus do Nascimento  - IFMT - Pessoa desenvolvedora - luiz.nascimento@estudante.ifmt.edu.br
 
 </br>
 
