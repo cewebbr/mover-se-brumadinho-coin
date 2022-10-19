@@ -50,24 +50,48 @@ Liste aqui todos os pré-requisitos no modelo abaixo.
 - [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org/en/). 
 
+Para executar o projeto deve-se:
+1. Compilar o smart contract e fazer deploy numa testenet (por padrão o projeto usa a Ropsten)
 
-### 1. No terminal
+### 1. Compilar o smart contract e fazer deploy na Ropsten
+
+Como material auxiliar pode-se consultar o site oficial da [Ethereum](https://ethereum.org/) que contém o [tutorial](https://ethereum.org/pt/developers/tutorials/hello-world-smart-contract/) de como realizar o deploy na Ropsten.
+
+Por padrão o projeto utiliza a [Alchemy](https://www.alchemy.com/) como plataforma de integracao com a Ropsten <br />
+para tal deve-se: 
+- Criar uma conta na [Alchemy](https://www.alchemy.com/)
+- Criar uma [Alchemy Key](https://docs.alchemy.com/docs/alchemy-quickstart-guide#1key-create-an-alchemy-key) selecionando a Ropsten no parâmetro `Network`
+- [Criar uma conta Ethereum](https://ethereum.org/pt/developers/tutorials/hello-world-smart-contract/#step-3)
+- [Adicionar Ether a essa conta](https://ethereum.org/pt/developers/tutorials/hello-world-smart-contract/#step-4)
+
+em seguida podemos configurar o projeto:
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/cewebbr/template_mover-se
+$ git clone https://github.com/cewebbr/mover-se-brumadinho-coin
 
-# Acesse a pasta do projeto no terminal
-$ cd template_mover-se
+# Acesse a pasta do projeto do smart contract no terminal
+$ cd mover-se-brumadinho-coin/Bcoin-SmartContracts/
 
 # Crie um arquivo `.env` na raiz do projeto
 
 $ cp .env-exemple .env
+```
+em seguida:
+- configure a variável `ROPSTEN_URL` com a versão `https` da Alchemy Key criada anteriormente
+- configure a variável `ROPSTEN_SIGNER` com a chave privada da conta Ethereum criada anteriormente
 
+
+```bash
 # Instale as dependências
-$ pip install -r requirements.txt
+$ npm install
+
+# Execute o script `deploy`
+$ npm run deploy
 
 ```
+
+Salve o endereço do contrato, que será exibido no final da execução do script (esse endereço será usado pelo WPA).
 
 ###  2. Configuração das variáveis de ambientes
 
