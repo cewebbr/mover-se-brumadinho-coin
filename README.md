@@ -50,50 +50,119 @@ Liste aqui todos os pré-requisitos no modelo abaixo.
 - [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org/en/). 
 
+Para executar o projeto deve-se:
+1. Compilar o smart contract e fazer deploy numa testenet (por padrão o projeto usa a Ropsten)
+2. Rodar o PWA com conexão com o smart contract
 
-### 1. No terminal
+### 1. Compilar o smart contract e fazer deploy na Ropsten
+
+Como material auxiliar pode-se consultar o site oficial da [Ethereum](https://ethereum.org/) que contém o [tutorial](https://ethereum.org/pt/developers/tutorials/hello-world-smart-contract/) de como realizar o deploy na Ropsten.
+
+Por padrão o projeto utiliza a [Alchemy](https://www.alchemy.com/) como plataforma de integracao com a Ropsten <br />
+para tal deve-se: 
+- Criar uma conta na [Alchemy](https://www.alchemy.com/)
+- Criar uma [Alchemy Key](https://docs.alchemy.com/docs/alchemy-quickstart-guide#1key-create-an-alchemy-key) selecionando a Ropsten no parâmetro `Network`
+- [Criar uma conta Ethereum](https://ethereum.org/pt/developers/tutorials/hello-world-smart-contract/#step-3)
+- [Adicionar Ether a essa conta](https://ethereum.org/pt/developers/tutorials/hello-world-smart-contract/#step-4)
+
+em seguida podemos configurar o projeto:
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/cewebbr/template_mover-se
+$ git clone https://github.com/cewebbr/mover-se-brumadinho-coin
 
-# Acesse a pasta do projeto no terminal
-$ cd template_mover-se
+# Acesse a pasta do projeto do smart contract no terminal
+$ cd mover-se-brumadinho-coin/Bcoin-SmartContracts/
 
 # Crie um arquivo `.env` na raiz do projeto
 
-$ cp .env-exemple .env
-
-# Instale as dependências
-$ pip install -r requirements.txt
+$ cp .env.example .env
 
 ```
+em seguida:
+- configure a variável `ROPSTEN_URL` com a versão `https` da Alchemy Key criada anteriormente
+- configure a variável `ROPSTEN_SIGNER` com a chave privada da conta Ethereum criada anteriormente
 
-###  2. Configuração das variáveis de ambientes
 
-Abra o arquivo `.env` na raiz do projeto e configure as variáveis de ambiente
-
-```
-twitter_api_key=""
-twitter_api_secret=""
-secret=""
-DATABASE_URL=""
-```
-###  3. Executando a aplicação
 ```bash
-# Execute a aplicação em modo de desenvolvimento
-$ python server.py
+# Instale as dependências
+$ npm install
 
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+# Execute o script `deploy`
+$ npm run deploy
+
 ```
+
+Salve o endereço do contrato, que será exibido no final da execução do script (esse endereço será usado pelo PWA).
+
+###  2. Rodar o PWA com conexão com o smart contract
+
+Crie o arquivo para as variáveis de ambiente
+```bash
+# Acesse a pasta do projeto do PWA
+$ cd ../Bcoin-PWA/
+
+# Crie um arquivo `.env` na raiz do projeto
+$ cp .env.example .env
+
+```
+Como conteúdo do arquivo `.env` temos:
+
+```bash
+#Firebase
+REACT_APP_API_KEY=
+REACT_APP_AUTH_DOMAIN=
+REACT_APP_PROJECT_ID=
+REACT_APP_STORAGE_BUCKET=
+REACT_APP_MESSAGING_SENDER_ID=
+REACT_APP_APP_ID=
+
+#Blockchain
+REACT_APP_BLOCKHAIN_NETWORK=
+REACT_APP_ALCHEMY_API_KEY=
+REACT_APP_AUTHORITY_ADDR=
+REACT_APP_CONTRACT_ADDR=
+
+# Infura (IPFS)
+REACT_APP_INFURA_URL=
+REACT_APP_INFURA_PROJECT_ID=
+REACT_APP_INFURA_PROJECT_SECRET=
+
+```
+
+##### Configurando as variáveis de ambiente
+O PWA usa o [Firebase](https://firebase.google.com/) para autenticação <br />
+para isso é necessario:
+1. [Criar um projeto no Firebase](https://firebase.google.com/docs/web/setup#create-project)
+2. [Registrar um app](https://firebase.google.com/docs/web/setup#register-app)
+
+no final do passo 2 é exibido as keys do app registrado, configure variáveis de ambiente relacionadas ao Firebase com esses valores. <br />
+
+as proximas variáveis de ambiente estão relacionadas a Blockchain:
+- `REACT_APP_BLOCKHAIN_NETWORK` nome da rede (como por exemplo, `ropsten`)
+- `REACT_APP_ALCHEMY_API_KEY` api key da Alchemy (pode ser a mesma criada anteriormente)
+- `REACT_APP_AUTHORITY_ADDR` endereço da conta que sera usada pela entidade de autoridade
+- `REACT_APP_CONTRACT_ADDR` endereço do contrato criado anteriormente
+
+e por último vamos utilizar a plataforma [Infura](https://infura.io/) para armazenar informações no IPFS <br />
+para isso é necessario:
+1. Criar uma conta na [Infura](https://infura.io/)
+2. [Criar um projeto](https://docs.infura.io/infura/getting-started#2.-create-a-project) selecionando `IPFS` na opção `NETWORK`
+
+no final do passo 2 é exibido as keys do app criado, configure variáveis de ambiente relacionadas a Infura com esses valores. <br />
 
 </br>
 
-#### Solução de problemas
+realizando todos os passos anteriores o PWA está pronto para ser executado
 
-Descreva aqui caso existam problemas conhecidos, como pacotes, conflitos entre versões e se possível, como resolver ou um artigo que auxilie na solução. Caso não existir, omitir a seção.
+```bash
+# Instale as dependências
+$ npm install
 
-<br/>
+# Execute o projeto
+$ npm start
+
+```
 
 ### Equipe responsável pelo projeto 
 
